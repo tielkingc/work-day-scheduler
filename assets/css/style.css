@@ -60,17 +60,23 @@ textarea {
   color: black;
 }
 
+#save-icon {
+  font-size: 3em;
+  padding: 15px 35px;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: black;
+  color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color: black;
 }
 
 #time {
@@ -78,11 +84,7 @@ textarea {
   font-weight: bold;
 }
 
-#save-icon {
-  color: white;
-  font-size: 3em;
-  padding: 15px 35px;
-}
+
 
 p {
   width: 100%;

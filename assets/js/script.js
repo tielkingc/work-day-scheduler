@@ -1,3 +1,4 @@
+var tasks = ["","","","","","","","",""]
 var taskELs = document.getElementsByClassName("task");
 // task text was clicked
 for (var c = 0; c < 9; c++) {
@@ -81,8 +82,17 @@ for (var c = 0; c < 9; c++) {
     }
     
   };
-  
-auditTask();
-  /*setInterval(function() {
+
+
+for (var saNum = 0; saNum < 9; saNum++) {
+    $(".but" + saNum).on("click", function () {
+        var saveTask = $(".but" + saNum).closest(".task" + saNum).text();
+        tasks[saNum] = saveTask;
+        console.log(tasks);
+        $(".saveBtn").addClass(".saveBtn")
+    })
+}  
+
+setInterval(function() {
     auditTask();
-  }, 1000);*/
+}, 100);
