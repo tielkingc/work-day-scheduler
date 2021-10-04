@@ -1,7 +1,7 @@
 
   # Work Day Scheduler
 
-  [![License](https://img.shields.io/badge/License-CDDL-1.0-blue.svg)](https://opensource.org/licenses/CDDL-1.0)
+  [![License]](https://img.shields.io/badge/License-CDDL-1.0-blue.svg)](https://opensource.org/licenses/CDDL-1.0)
 
   ## This project will provide the user with time blocks, starting at 9 am and ending at 5 pm. The user will be able to add tasks to the time blocks, and the site will keep track of the current time. Depending on the current time and the time of the block, the project will change the background of the time block. For example, if the current time is 3:03 pm the 3:00 pm time block will turn red.
 
